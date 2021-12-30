@@ -85,7 +85,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <section>
       <div id="block-left2" class="block-left">
         <div id="pre3" class="pre3"></div>
         <h2 id="e" class="e">EDUCATION</h2>
@@ -128,6 +128,68 @@
 
         <div id="preggg" class="preg"></div>
       </div>
+    </section>
+    <footer>
+        <h2>using System;
+
+            namespace laba15
+            {
+                class Program
+                {
+                    public static double tryInputDouble()
+                    {
+                        try
+                        {
+                            double a = Convert.ToDouble(Console.ReadLine());
+                            return a;
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Введите не строоку, а число:");
+                            return tryInputDouble();
+                        }
+                    }
+            
+            
+                    static void Main(string[] args)
+                    {
+                        double a = 0;
+                        try
+                        {
+                            Console.WriteLine("Введите значение a: ");
+                            a = tryInputDouble();
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Введите не строоку, а число: ");
+                            try
+                            {
+                                a = Convert.ToInt32(Console.ReadLine());
+                                if (a < 0)
+                                {
+                                    throw new Exception("Введите положительное число");
+                                }
+                            }
+                            catch (Exception iskl)
+                            {
+                                Console.WriteLine(iskl.Message);
+                                a = Convert.ToInt32(Console.ReadLine());
+                            }
+                           
+            
+                        }
+                        finally
+                        {
+                            double tg2a;
+                            tg2a = (2 * Math.Tan(a)) / (1 - Math.Pow(Math.Tan(a), 2));
+                            Console.WriteLine("Значение тансенса двух альфа равно: " + tg2a);
+                        }
+            
+                        Console.ReadKey();
+                    }
+                }
+            }
+            </h2>
     </footer>
   </body>
 </html>
