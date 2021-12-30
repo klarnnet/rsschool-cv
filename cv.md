@@ -25,7 +25,13 @@
 * Git/GitHub
 ## Пример кода
 ```
-public static double tryInputDouble()
+using System;
+
+namespace laba15
+{
+    class Program
+    {
+        public static double tryInputDouble()
         {
             try
             {
@@ -38,6 +44,47 @@ public static double tryInputDouble()
                 return tryInputDouble();
             }
         }
+
+
+        static void Main(string[] args)
+        {
+            double a = 0;
+            try
+            {
+                Console.WriteLine("Введите значение a: ");
+                a = tryInputDouble();
+            }
+            catch
+            {
+                Console.WriteLine("Введите не строоку, а число: ");
+                try
+                {
+                    a = Convert.ToInt32(Console.ReadLine());
+                    if (a < 0)
+                    {
+                        throw new Exception("Введите положительное число");
+                    }
+                }
+                catch (Exception iskl)
+                {
+                    Console.WriteLine(iskl.Message);
+                    a = Convert.ToInt32(Console.ReadLine());
+                }
+               
+
+            }
+            finally
+            {
+                double tg2a;
+                tg2a = (2 * Math.Tan(a)) / (1 - Math.Pow(Math.Tan(a), 2));
+                Console.WriteLine("Значение тансенса двух альфа равно: " + tg2a);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+
 ```
 
 ## Образование
