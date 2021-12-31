@@ -124,11 +124,9 @@ ul{
     line-height: 51px;
     margin-right: 40px;
     list-style-type : none;
-    font-weight: 400;
-    
-    
-    
+    font-weight: 400; 
 }
+
 .snak{
     
     list-style-type : none;
@@ -197,9 +195,13 @@ ul{
     margin-left: 106px ;
 }
 .st{
+    font-size: 28px; 
+    font-weight: 700;
     margin-left: 106px ;
 }
 .sk{
+    font-size: 28px; 
+    font-weight: 700;
     margin-left: 137px ;
 }
 .e{
