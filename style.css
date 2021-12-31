@@ -1,0 +1,264 @@
+html{
+    scroll-behavior: smooth;
+    font-weight:400;
+    font-family: 'Roboto-Thin', sans-serif;
+    
+    }
+a { 
+    text-decoration: none; 
+    color:black;
+}
+a {
+    text-decoration:none; 
+    display: inline-block;
+    color:#000;
+    }
+    a:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 1px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #000; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+    a:hover:after,
+    a:focus:after {
+    width: 100%;
+    }
+    a:hover{
+    color:#000;
+    } 
+
+   
+
+
+.block-left{
+    width:34%;
+    height:750px;
+    background:#466B59;
+    overflow:auto;
+    float:left;
+}
+#square{
+    
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    margin-left: 234px;
+    margin-top: 116px;
+    
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.name{
+
+    
+    margin-left: 451px;
+    margin-top: 197px;
+
+}
+
+.prof{
+    
+    font-weight: 400;
+    margin-left: 456px;
+    margin-top: 38px;
+
+}
+
+.photo{
+    position: absolute;
+    width: 487px;
+    height: 487px;
+    margin-left: 294px;
+    margin-top: 158px;
+}
+
+.block-right{
+    width:66%;
+    height:750px;
+    overflow:auto;
+}
+.logo{
+    margin-left: 90px;
+    margin-top: 48px;
+}
+.nav{
+    display:flex;
+    list-style-type : none;
+    margin-top: 50px;
+    
+}
+
+.menu{
+    font-weight: 700;
+    margin-left: 270px;
+    margin-top: 47px;
+    display:flex;
+    
+    list-style-type : none;
+    
+}
+.nav-item{
+    margin-right: 50px;
+}
+
+.cont{
+    margin-top: 130px;
+    display:flex;
+}
+
+.c{
+    color: #fff;
+    position:absolute;
+    margin-top: 82px;
+    margin-left: 180px;
+}
+
+.slk{
+    margin-top: 22px;
+    line-height: 51px;
+    margin-right: 40px;
+    list-style-type : none;
+    font-weight: 400; 
+}
+
+.snak{
+    
+    list-style-type : none;
+}
+.snak img{
+    
+    margin-top: 17px;
+    width: 30px;
+    height: 30px;
+}
+.sq{
+    
+    position: absolute;
+    width: 791px;
+    height: 455px;
+    margin-left: 69px;
+    margin-top: 168px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.about{
+    color: #fff;
+    position:absolute;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 68px;
+    margin-left: 154px;
+
+}
+.text{
+    
+    width: 641px;
+    height: 254px;
+    font-weight: 400;
+    margin-top: 262px;
+    margin-left: 144px;
+}
+
+.pre{
+    width: 1000px;
+    height: 68px;
+    background-color: #4A4845;
+    position: absolute;
+    top: 817px;  
+    text-align:center;
+}
+.pre3{
+
+    width: 1000px;
+    height: 68px;
+    background-color: #4A4845;
+    position: absolute;
+    top: 1566px;  
+    text-align:center;
+}
+.verh{
+
+    position:absolute;
+    display: flex;
+    color: #fff;
+    margin-top:54px;
+    margin-left: 106px ;
+}
+.st{
+    font-size: 28px; 
+    font-weight: 700;
+    margin-left: 106px ;
+}
+.sk{
+    font-size: 28px; 
+    font-weight: 700;
+    margin-left: 137px ;
+}
+.e{
+    position:absolute;
+    color: #fff;
+    margin-top:82px;
+    margin-left: 175px ;
+}
+.obomne{
+    display: flex;
+    margin-top: 194px;
+    margin-left: 106px;
+
+}
+.strendth{
+
+    line-height: 40px;
+    list-style-type : none;
+}
+
+.skilld{
+
+    line-height: 40px;
+    margin-left: 212px;
+    list-style-type : none;
+}
+.education{
+
+    margin-left: 21px;
+    margin-top: 225px;
+}
+.h23{
+    
+    font-weight: 400;
+}
+.pregd{
+
+    width: 1000px;
+    height: 50px;
+    background-color: #4A4845;
+    position: absolute;
+    top: 2220px;
+   
+    text-align:center;
+}
+.preg{
+
+    width: 1500px;
+    height: 138px;
+    background-color: #fff;
+    position: absolute;
+    
+   
+    text-align:center;
+}
+.mycode{
+    margin-left: 110px ;
+}
+.rsschool{
+   
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    list-style-type : none;
+
+}
+
