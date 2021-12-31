@@ -53,14 +53,14 @@ a {
 
 .name{
 
-    size: 56px;
+    
     margin-left: 451px;
     margin-top: 197px;
 
 }
 
 .prof{
-    size: 24px;
+    
     font-weight: 400;
     margin-left: 456px;
     margin-top: 38px;
@@ -104,9 +104,6 @@ a {
     margin-right: 50px;
 }
 
-ul{
-    size: 18px; 
-}
 .cont{
     margin-top: 130px;
     display:flex;
@@ -144,7 +141,6 @@ ul{
     height: 455px;
     margin-left: 69px;
     margin-top: 168px;
-
     border: 1px solid #000;
     box-sizing: border-box;
 }
@@ -167,23 +163,20 @@ ul{
 }
 
 .pre{
-    float: center;
     width: 1000px;
     height: 68px;
     background-color: #4A4845;
     position: absolute;
-    top: 817px;
-   
+    top: 817px;  
     text-align:center;
 }
 .pre3{
-    float: center;
+
     width: 1000px;
     height: 68px;
     background-color: #4A4845;
     position: absolute;
-    top: 1566px;
-   
+    top: 1566px;  
     text-align:center;
 }
 .verh{
@@ -217,14 +210,13 @@ ul{
 
 }
 .strendth{
-    size: 24px;
-    line-height: 40px;
 
+    line-height: 40px;
     list-style-type : none;
 }
 
 .skilld{
-    size: 24px;
+
     line-height: 40px;
     margin-left: 212px;
     list-style-type : none;
@@ -236,11 +228,10 @@ ul{
 }
 .h23{
     
-    size: 24px;
     font-weight: 400;
 }
 .pregd{
-    float: center;
+
     width: 1000px;
     height: 50px;
     background-color: #4A4845;
@@ -250,7 +241,7 @@ ul{
     text-align:center;
 }
 .preg{
-    float: center;
+
     width: 1500px;
     height: 138px;
     background-color: #fff;
