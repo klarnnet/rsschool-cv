@@ -1,11 +1,185 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> hello </title>
-        <meta charset="">
-    </head>
+<html lang="en">
+  <head>
+    <title>ANNAKL</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="”header”" class="”header”">
+      <img
+        class="photo"
+        src="https://sun9-68.userapi.com/impg/u9YPD_t86dzz7XxBF06dbiHRC72uUyk39USEYw/bCeHhfRyHSE.jpg?size=1276x1276&quality=96&sign=b94c907cd65b742d6fd684fcc607bb8f&type=album"
+        alt=""
+      />
+      <div id="square"></div>
+      <div class="block-left">
+        <img
+          class="photo"
+          src="https://sun9-68.userapi.com/impg/u9YPD_t86dzz7XxBF06dbiHRC72uUyk39USEYw/bCeHhfRyHSE.jpg?size=1276x1276&quality=96&sign=b94c907cd65b742d6fd684fcc607bb8f&type=album"
+          alt=""
+        />
+        <h1 class="logo">ANNAKL</h1>
+      </div>
+      <div class="block-right">
+        <ul class="menu">
+          <li class="nav-item"><a href="#block-right1">About</a></li>
+          <li class="nav-item"><a href="#block-left1">Contacts</a></li>
+          <li class="nav-item"><a href="#block-left2">Education</a></li>
+          <li class="nav-item"><a href="#block-right2">Strengths</a></li>
+          <li class="nav-item"><a href="#block-right2">Skills</a></li>
+        </ul>
+        <h1 class="name">Klepikova Anna</h1>
+        <h2 class="prof">Front-End developer</h2>
+      </div>
+    </header>
+    <section>
+      <div id="block-left1" class="block-left">
+        <div id="pre" class="pre"></div>
+        <h2 id="c" class="c">
+          <span> CONTACTS </span>
+        </h2>
 
-    <body>
+        <div class="cont">
+          <ul class="snak">
+            <li><img src="inst.png" alt="" /></li>
+            <li><img src="tg.png" alt="" /></li>
+            <li><img src="dis.png" alt="" /></li>
+            <li><img src="geo.png" alt="" /></li>
+            <li><img src="git.png" alt="" /></li>
+            <li><img src="mail.png" alt="" /></li>
+          </ul>
+          <ul class="slk">
+            <li><a href="https://www.instagram.com/annn.klll/?hl=ru">@annn.klll</a></li>
+            <li><a href="https://t.me/Klarnnet">@klarnnet</a></li>
+            <li> Klarnnet </li>
+            <li> Belarus, Minsk </li>
+            <li><a href="https://github.com/klarnnet">Klarnnet</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=om#inbox">annaklepikovae@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="block-right1" class="block-right">
+        <div id="prek" class="pre"></div>
+        <p id="about" class="about">
+          <span>ABOUT ME</span>
+        </p>
 
-    </body>
+        <div id="sq" class="sq"></div>
+        <div class="text">
+          <h2>
+            My name is Anna Egorovna Klepikova, I am 18 years old and at the
+            moment I am studying in the 3rd year at the Minsk Radio Engineering
+            College (branch of BSUIR) on the specialty software of information
+            technologies. I really like the learning process itself, and learn
+            something new to learn new programming languages ​​and programs on
+            my own. I also enjoy sports such as tennis and swimming. I love to
+            draw and create something. I like to see the result of my work.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="block-left2" class="block-left">
+        <div id="pre3" class="pre3"></div>
+        <h2 id="e" class="e">EDUCATION</h2>
+        <div class="education">
+          <h2 class="h23">2019 - 2023</h2>
+          <h2 class="h23">Branch of UO BSUIR "Minsk Radiotechnical College"</h2>
+          <br />
+          <h2 class="h23">2016 - 2019</h2>
+          <h2 class="h23">STEP Computer Academy Minsk</h2>
+        </div>
+        <div id="preg" class="pregd"></div>
+      </div>
+      <div id="block-right2" class="block-right">
+        <div id="pre333" class="pre3"></div>
+        <div class="verh">
+          <p id="st" class="st">STRENDTH</p>
+          <p id="sk" class="sk">SKILLS</p>
+        </div>
+        <div class="obomne">
+          <ul class="strendth">
+            <li>Collaboration</li>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Adaptability</li>
+            <li>Sociable</li>
+            <li>Easy to learn</li>
+            <li>Diligent</li>
+          </ul>
+          <ul class="skilld">
+            <li>Python</li>
+            <li>c++</li>
+            <li>c#</li>
+            <li>java</li>
+            <li>html</li>
+            <li>css</li>
+            <li>photoshop</li>
+            <li>illustrator</li>
+          </ul>
+        </div>
+
+        <div id="preggg" class="pregd"></div>
+      </div>
+    </section>
+    <footer>
+        
+    <div id="block-left3" class="block-left"></div>
+        <div id="block-right3" class="block-right">
+            <h1 class="mycode"> My code: </h1>
+        <pre>
+            <code>
+                using System;
+                namespace laba15
+                {
+                    class Program
+                    {
+                        public static double tryInputDouble()
+                        {
+                            try
+                            {
+                                double a = Convert.ToDouble(Console.ReadLine());
+                                return a;
+                            }
+                            catch
+                            {
+                                Console.WriteLine("Введите не строоку, а число:");
+                                return tryInputDouble();
+                            }
+                        }
+                
+                
+                        static void Main(string[] args)
+                        {
+                            double a = 0;
+                            try
+                            {
+                                Console.WriteLine("Введите значение a: ");
+                                a = tryInputDouble();
+                            }
+                            
+                            finally
+                            {
+                                double tg2a;
+                                tg2a = (2 * Math.Tan(a)) / (1 - Math.Pow(Math.Tan(a), 2));
+                                Console.WriteLine("Значение тансенса двух альфа равно: " + tg2a);
+                            }
+                
+                            Console.ReadKey();
+                        }
+                    }
+                }
+            </code>
+        </pre>
+        </div>
+      
+        <div id="pregglg" class="preg">
+            <p><a href="https://rs.school/"> <img class="rsschool"   src="https://rs.school/images/rs_school_js.svg"  alt=""></a></p>
+            <h2 class="year">2021</h2>
+        </div>
+      
+    </footer>
+  </body>
 </html>
